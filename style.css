@@ -175,6 +175,29 @@ figure:hover img {
 figure:hover figcaption {
 	opacity: 1;
 }
+
+
+.qr-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.qr-box img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 8px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.qr-box img:hover {
+	transform: scale(1.1);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+
 .contact-form {
 	max-width: 600px;
 	margin: 20px auto;
