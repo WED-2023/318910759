@@ -37,9 +37,3 @@ The background uses a **fixed formula sketch image** with subtle transparency to
 - JavaScript (basic DOM manipulation and event listeners)
 - Facebook SDK (Like button)
 - YouTube iframe embedding
-
-## Running the Project Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/wed-2023/318910759.git
